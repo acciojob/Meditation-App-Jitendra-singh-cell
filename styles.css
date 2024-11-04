@@ -1,1 +1,76 @@
 /*  your css code here. If applicable */
+/* Basic styling for the app */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.vid-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.vid-container video {
+    width: 100%;
+    height: auto;
+}
+
+.player-container {
+    margin-top: 20px;
+}
+
+.play {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.play:hover {
+    background-color: #2980b9;
+}
+
+.time-display {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sound-picker, .time-select {
+    margin-top: 20px;
+}
+
+.sound-picker button, .time-select button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sound-picker button:hover, .time-select button:hover {
+    background-color: #27ae60;
+}
